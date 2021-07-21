@@ -1,0 +1,2 @@
+startup --host_jvm_args=-javaagent:bazel/allocation_instrumenter/java-allocation-instrumenter-3.0.1.jar
+startup --host_jvm_args=-DRULE_MEMORY_TRACKER=1
